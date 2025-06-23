@@ -8,68 +8,82 @@
         <link rel="stylesheet" href="/styles/style.css">
     </head>
 <body >
-<main>
-    <section >
-        <h1><u>Registration Form</u></h1>
-        <form action="">
-            <label for="firstName">First Name</label>
-            <input type="text" name="firstName" id="firstName" required value=""> 
-            <br><br>
+    <div class="menu">
+        <main class="menu">
+            <section >
+                <h1><u>Registration Form</u></h1>
+                <form action="">
+                    <div class="form-row">
+                        <label for="firstName">First Name</label>
+                        <input type="text" name="firstName" id="firstName" required value=""> 
+                     </div>
 
-            <label for="lastName">Last Name</label>
-            <input type="text" name="lastName" id="lastName" required value="">
-            <br><br>
-            <label for ="gender">Gender</label>
-               
-                
-                <input type="radio" name="gender"   id="male" value="male" value="">
-                <label for="male">Male</label>
-                
-                <input type="radio" name="gender" id="female" value="female" value="">
-                <label for="female">Female</label>
+                    <div class="form-row">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" name="lastName" id="lastName" required value="">
+                     </div>
 
-            
-            <br><br>
-            <label for="dob">DOB</label>
-            <input type="date" name="dob" id="dob" required value="">
-            <br><br>
+                    <div class="form-row">
+                        <label for ="gender">Gender</label>
+                        </div>
+                         <div class="form-row">
+                        <input type="radio" name="gender"   id="male" value="male" value="">
+                        <label for="male">Male</label>
+                        </div>
+                         <div class="form-row">
+                        <input type="radio" name="gender" id="female" value="female" value="">
+                        <label for="female">Female</label>
+                    </div>
+                    
+                    <div class="form-row">
+                        <label for="dob">DOB</label>
+                        <input type="date" name="dob" id="dob" required value="">
+                    </div>
 
-            <label for="emailId">Email</label>
-            <input type="email" name="emailId" id="emailId" required value="">
-            <br><br>
+                    <div class="form-row">
+                        <label for="emailId">Email</label>
+                        <input type="email" name="emailId" id="emailId" required value="">
+                    </div>
+                   
+                    <div class="form-row">
+                        <label for="mobileNo">Mobile</label>
+                        <input type="text" name="mobileNo" id="mobileNo" value="">
+                    </div>
 
-            <label for="mobileNo">Mobile</label>
-            <input type="text" name="mobileNo" id="mobileNo" value="">
-            <br><br>
+                    <div class="form-row">
+                        <label for="tenthPercent">10&nbsp;%</label>
+                        <input type="number" name="tenthPercent" id="tenthPercent" min="0" max="99" >
+                    </div>
 
-            <label for="tenthPercent">10&nbsp;%</label>
-                <input type="number" name="tenthPercent" id="tenthPercent" min="0" max="99" >
-            <br><br>
+                    <div class="form-row">
+                        <label for="twelvePercent">12&nbsp%</label>
+                        <input type="number" name="twelvePercent" id="twelvePercent" min="0" max="100" value="">
+                    </div>
 
-            <label for="twelvePercent">12&nbsp%</label>
-                <input type="number" name="twelvePercent" id="twelvePercent" min="0" max="100" value="">
-            <br><br>
+                    <div class="form-row">
+                        <label for="btechPercent">B.tech &nbsp;%</label>
+                        <input type="number" name="btechPercent" id="btechPercent" min="0" max="100" value="">
+                    </div>
 
-             <label for="btechPercent">B.tech &nbsp;%</label>
-                <input type="number" name="btechPercent" id="btechPercent" min="0" max="100" value="">
-            <br><br>
+                    <div class="form-row">
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password" value="">
+                    </div>
 
-            <label for="password">Password</label>
-            <input type="password" name="password" id="password" value="">
-            <br><br>
+                    <div class="form-row">
+                        <label for="confirmPassword">Confirm Password</label>
+                        <input type="password" name="confirmPassword" id="confirmPassword" value="">
+                    </div>
 
-            <label for="confirmPassword">Confirm Password</label>
-            <input type="password" name="confirmPassword" id="confirmPassword" value="">
-            <br><br>
+                    <div class="form-button-row">
+                        <button type="button" style="background-color: lightcoral;" > Submit </button>
+                    </div>
 
-            <button type="button" > Submit </button>
-
-
-        </form>
+                </form>
 
 
-    </section>
+            </section>
 
-</main>
-
+        </main>
+    </div>
 </body>

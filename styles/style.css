@@ -2,3 +2,60 @@ label{
     font-weight: bold;
     padding-right:10px;
 }
+
+body{
+    background-image: url(/images/background.jpeg);
+    font-family: sans-serif;
+    background-repeat: no-repeat; /* Prevents tiling */
+    background-size: cover;      /* Ensures the image covers the entire body */
+}
+
+#section2{
+    color:red;
+}
+
+h1{
+    color:blue;
+    font-size: 1em;
+    text-align: center;
+}
+
+.container{
+
+    background-color: lightgreen;
+    padding:40px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin:auto;
+
+}
+
+.menu{
+    width:80%;
+    max-width: 500px;
+    background-color: burlywood;
+    margin-left:auto;
+    margin-right:auto;
+
+
+}
+
+.form-row {
+    display: flex;          /* Aligns label and input in a row */
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .form-row label {
+    width: 150px; /* fixed label width */
+    margin-right: 10px;
+    text-align: right;
+  }
+
+  .form-row input {
+    flex: 1; /* input expands */
+  }
+
+  .form-button-row {
+    text-align: center;
+  }
